@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+cd ~
 
 #first e vi ntpconfig.bash diye file khule than nicher shb copy paste
 #1st part ntp setup
