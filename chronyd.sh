@@ -18,7 +18,7 @@ allow 192.168.0.0/16
 logdir /var/log/chrony
 eof
 
-#dont forget to change this home directory
+#trying better solution :(
 sudo mv chrony.conf /etc/
 
 sudo systemctl start chronyd
