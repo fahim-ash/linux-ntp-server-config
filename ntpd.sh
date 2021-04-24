@@ -22,7 +22,7 @@ keys /etc/ntp/keys
 disable monitor
 eof
 
-# onno ra nijeder home add korbe 
+# don't forget to change the home dir
 
 sudo mv /home/ash/ntp.conf /etc/
 
