@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+cd ~
 sudo yum -y install chrony
 
 #vi /etc/chrony.conf
