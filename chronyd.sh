@@ -16,6 +16,8 @@ rtcsync
 allow 192.168.0.0/16
 logdir /var/log/chrony
 eof
+
+#dont forget to change this home directory
 sudo mv /home/ash/chrony.conf /etc/
 
 sudo systemctl start chronyd
@@ -24,4 +26,4 @@ sudo systemctl enable chronyd
 sudo firewall-cmd --add-service=ntp --permanent
 sudo firewall-cmd --reload
 
-#sudo chronyc sources
+#sudo chronyc sources  (check ntp with this command)
