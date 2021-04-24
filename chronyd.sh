@@ -27,4 +27,4 @@ sudo systemctl enable chronyd
 sudo firewall-cmd --add-service=ntp --permanent
 sudo firewall-cmd --reload
 
-sudo chronyc sources 
+#sudo chronyc sources (check status)
