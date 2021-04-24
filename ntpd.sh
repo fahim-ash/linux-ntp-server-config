@@ -27,8 +27,12 @@ eof
 
 sudo mv /home/ash/ntp.conf /etc/
 
-systemctl start ntpd
-systemctl enable ntpd
+sudo systemctl start ntpd
+sudo systemctl enable ntpd
 
 sudo firewall-cmd --add-service=ntp --permanent
 sudo firewall-cmd --reload
+
+sudo systemctl stop ntpd
+sudo ntpd -u ntp:ntp
+ntpq -p
