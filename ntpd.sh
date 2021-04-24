@@ -34,4 +34,4 @@ sudo firewall-cmd --reload
 
 sudo systemctl stop ntpd
 sudo ntpd -u ntp:ntp
-ntpq -p
+#ntpq -p (test ntp)
