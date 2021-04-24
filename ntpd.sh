@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-cd ~
 
 #first e vi ntpconfig.bash diye file khule than nicher shb copy paste
 #1st part ntp setup
@@ -25,7 +24,7 @@ eof
 
 # don't forget to change the home dir
 
-sudo mv /home/ash/ntp.conf /etc/
+sudo mv ntp.conf /etc/
 
 sudo systemctl start ntpd
 sudo systemctl enable ntpd
