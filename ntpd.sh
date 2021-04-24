@@ -22,7 +22,7 @@ keys /etc/ntp/keys
 disable monitor
 eof
 
-# don't forget to change the home dir
+#moving the created file
 
 sudo mv ntp.conf /etc/
 
